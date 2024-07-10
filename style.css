@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: #121212;
+  font-family: "Montserrat", sans-serif;
+}
+.block {
+  background-image: url(media/tatoo.svg);
+  height: 950px;
+  -webkit-box-shadow: 0px 100px 21px -4px rgba(0, 0, 0, 0.54) inset;
+  -moz-box-shadow: 0px 100px 21px -4px rgba(0, 0, 0, 0.54) inset;
+  box-shadow: 0px 100px 21px -4px rgba(0, 0, 0, 0.54) inset;
+}
+.header {
+  height: 122px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.container {
+  max-width: 940px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+.nav {
+  text-decoration: none;
+  color: azure;
+}
+.double__block {
+  margin-top: 74px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left__block {
+  font-size: 44px;
+  max-width: 689px;
+  width: 100%;
+  color: azure;
+  display: flex;
+  margin-left: 165px;
+}
+.right__block {
+  margin-right: 150px;
+}
+.slaider2 {
+  margin-top: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 48px;
+  color: azure;
+  margin-top: 50px;
+  text-align: center;
+}
+.solid__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solid {
+  border: 2px solid white;
+  width: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 55px;
+}
+.three__blocks {
+  max-width: 1685px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px auto 0;
+  font-weight: 400;
+}
+.btn {
+  max-width: 330px;
+  width: 100%;
+  height: 85px;
+  border-radius: 20px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  background: white;
+  margin-top: 30px;
+  padding: 25px;
+}
+.btn__dec {
+  text-decoration: none;
+}
+.face {
+  position: relative;
+  display: inline-block;
+}
+.face span {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  left: 30px;
+  bottom: 160px;
+}
+.arm__block {
+  background-image: url(media/tatoo4.png);
+  height: 970px;
+}
+.inf__blocks {
+  max-width: 1630px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+.first__block {
+  height: 617px;
+  max-width: 569px;
+  width: 100%;
+}
+.title__inf {
+  font-weight: 400;
+  font-size: 36px;
+  color: azure;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 170px;
+  line-height: 44px;
+}
+.inf {
+  background-color: #979292;
+  opacity: 0.5;
+  height: 496px;
+  border-radius: 52px;
+}
+.second__block {
+  max-width: 569px;
+  width: 100%;
+  height: 278px;
+  background-color: #979292;
+  opacity: 0.5;
+  border-radius: 52px;
+  margin-top: 230px;
+  color: azure;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 60px;
+}
+.map__block {
+  background-color: #121212;
+  height: 750px;
+}
+.map {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+}
+.contacts {
+  max-width: 1500px;
+  width: 100%;
+  color: azure;
+  font-size: 24px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 35px;
+}
+.left__side {
+  max-width: 394px;
+  width: 100%;
+  margin-left: 150px;
+  text-align: center;
+}
+.right__side {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: -120px;
+}
+.footer {
+  text-decoration: none;
+  color: azure;
+}

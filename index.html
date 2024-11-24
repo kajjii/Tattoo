@@ -8,35 +8,42 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>projecttatoo</title>
+    <title>tattoo</title>
 </head>
 <body>
     <div class="main">
     <div class="block">
-        <header class="header">
-            <nav class="container">
-                <a href="#" class="nav">О нас</a>
-                <a href="#" class="nav">Галерея</a>
-                <a href="#" class="logo"><img src="media/logo.png" style="margin-top: 12px;" alt="" class=""></a>
-                <a href="#" class="nav">Наши мастера</a>
-                <a href="#" class="nav">Контакты</a>
-            </nav>
-        </header>
+        <div class="wrapper">
+            <header class="header">
+                <nav class="container">
+                    <a href="#about" class="nav">О нас</a>
+                    <a href="#" class="nav">Галерея</a>
+                    <a href="#" class="logo"><img src="media/logo.png" style="margin-top: 12px;" alt="" class=""></a>
+                    <a href="#masters" class="nav">Наши мастера</a>
+                    <a href="#contacts" class="nav">Контакты</a>
+                </nav>
+            </header>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </div>
-    <div class="double__block">
+    <div id="about" class="double__block">
         <div class="left__block">
-            Тату студия OMYT работает<br>
-             с 2012 года,поэтому наше<br>
-              качество проверено<br>
-               временем.Мастера<br>
-                предлагают разные стили<br>
-                 и только индивидуальные<br>
+            Тату студия OMYT работает
+             с 2012 года,поэтому наше
+              качество проверено
+               временем.Мастера
+                предлагают разные стили
+                 и только индивидуальные
                   эскизы.
-    </div>
+        </div>
         <div class="right__block"> <img src="media/tatoo2.png" alt="" class=""> </div>
     </div>
     <div class="slaider2"> <img src="media/tatoo3.png" alt=""> </div>
-    <div class="masters">
+    <div id="masters" class="masters">
         <div class="solid__title">
             <div class="solid"></div>
             <div class="title">Наши мастера</div>
@@ -56,21 +63,21 @@
             </div>
         </div>
     </div>
-    <div class="arm__block"> 
-    <div class="inf__blocks">
-        <div class="first__block">
-            <div class="title__inf">Оставьте свои данные <br>
-                 и мы вам перезвоним</div>
-            <div class="inf"></div>
+    <div id="contacts" class="arm__block"> 
+        <div class="inf__blocks">
+            <div class="first__block">
+                <div class="title__inf">Оставьте свои данные <br>
+                    и мы вам перезвоним</div>
+                <div class="inf"></div>
+            </div>
+            <div class="second__block">
+                <div class="text" style="margin-top: 20px; opacity: unset;" >
+                +7 (995) 13-666-96
+                omyt.tattoo@gmail.com</div>
+                <div class="solid"></div>
+                г. Пермь,ул.Екатериниская 59
+            </div>
         </div>
-        <div class="second__block">
-            <div class="text" style="margin-top: 20px; opacity: unset;" >
-            +7 (995) 13-666-96
-            omyt.tattoo@gmail.com</div>
-            <div class="solid" style="width: 492px; margin: 25px auto" ></div>
-            г. Пермь,ул.Екатериниская 59
-        </div>
-    </div>
     </div>
     <div class="map__block">
         <div class="map">
@@ -80,14 +87,14 @@
             <div class="left__side">
             +7 (995) 13-666-96 <br>
             г. Пермь,ул.Екатериниская 59
-        </div>
-        <div class="right__side">
-           <a href="#" class="footer">Вконтакте</a> 
-            <a href="#" class="footer">Instagram</a> 
-        </div>
+            </div>
+            <div class="right__side">
+               <a href="#" class="footer">Вконтакте</a> 
+                <a href="#" class="footer">Instagram</a> 
+            </div>
         </div>
     </div>
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>

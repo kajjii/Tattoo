@@ -124,7 +124,7 @@
 }
 
 .arm__block {
-  background-image: url(media/tatoo4.png);
+  background: url(media/tatoo4.png) no-repeat center center / cover;
   height: 970px;
 }
 .inf__blocks {
@@ -152,7 +152,36 @@
   background-color: #979292;
   opacity: 0.5;
   height: 496px;
-  border-radius: 52px;
+  border-radius: 50px;
+}
+.feed-form {
+    padding: 40px 0;
+    margin: 0px 65px;
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+}
+.feed-form input {
+    margin-top: 15px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.button__submit {
+    margin-top: 30px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    border-color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 .second__block {
   max-width: 569px;
@@ -179,10 +208,7 @@
   justify-content: center;
 }
 .contacts {
-  /* max-width: 1500px; */
-  /* width: 100%; */
   color: azure;
-  
   font-size: 24px;
   margin-top: 30px;
   align-items: center;
@@ -192,8 +218,6 @@
   line-height: 35px;
 }
 .left__side {
-  /* max-width: 394px; */
-  /* width: 100%; */
   margin-left: 80px;
   text-align: center;
 }
@@ -202,7 +226,6 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* margin-right: -120px; */
 }
 .footer {
   text-decoration: none;
@@ -269,6 +292,29 @@
     height: 370px;
     width: 360px;
   }
+  .feed-form {
+    padding: 30px 0;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.feed-form input {
+    margin-top: 8px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border: none;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.button__submit {
+    margin-top: 25px;
+    height: 50px;
+    font-size: 15px;
+}
   .first__block {
     height: auto;
     width: auto;
@@ -305,6 +351,17 @@
   .inf__blocks {
     flex-direction: column;
   }
+  .feed-form {
+    padding: 20px 0;
+}
+  .feed-form input {
+    margin-top: 8px;
+    height: 55px;
+}
+  .button__submit {
+    margin-top: 15px;
+    height: 50px;
+}
   .first__block {
     max-width: auto;
   }
@@ -452,6 +509,20 @@
     width: 70%;
     margin-bottom: 40px;
   }
+  .feed-form {
+    padding: 20px 0;
+    margin: 0px 30px;
+    width: 220px;
+}
+.feed-form input {
+    margin-top: 8px;
+    height: 45px;
+    font-size: 13px;
+}
+.button__submit {
+    height: 42px;
+    font-size: 12px;
+}
   .title__inf {
     font-size: 30px;
     margin-top: 10px;

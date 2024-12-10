@@ -509,20 +509,6 @@
     width: 70%;
     margin-bottom: 40px;
   }
-  .feed-form {
-    padding: 20px 0;
-    margin: 0px 30px;
-    width: 220px;
-}
-.feed-form input {
-    margin-top: 8px;
-    height: 45px;
-    font-size: 13px;
-}
-.button__submit {
-    height: 42px;
-    font-size: 12px;
-}
   .title__inf {
     font-size: 30px;
     margin-top: 10px;
@@ -598,6 +584,20 @@
     .inf__blocks {
       padding: 0 25px 20px;
       justify-content: center;
+    }
+    .feed-form {
+        padding: 20px 0;
+        margin: 0px 30px;
+        width: 220px;
+    }
+    .feed-form input {
+        margin-top: 8px;
+        height: 45px;
+        font-size: 13px;
+    }
+    .button__submit {
+        height: 42px;
+        font-size: 12px;
     }
     .text {
       line-height: 29px;
